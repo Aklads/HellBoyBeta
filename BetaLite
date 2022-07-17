@@ -1,6 +1,6 @@
 
 gg.setVisible(false)
-gg.toast("📕|Versão 00.01")
+gg.toast("📕| Versão 00.01")
 
 xset = 24
 yset = 28
@@ -5699,18 +5699,19 @@ magics = {
 function reqQ(fReq)
     local reqG = gg
     reqG.clearResults()
-    reqG.searchNumber(--🪐╭╮╭━╮
-    fReq[1],          --☄️┃┃┃╭╯╱╱╱╱╭╮
-    fReq[2],          --🪐┃╰╯╯╭┳━━╮╰╋━━┳━━┳━╮
-    fReq[3],          --☄️┃╭╮┃┣┫╭╮┃╭┫┃━┫┃━┫╭╮╮
-    fReq[4],          --🪐┃┃┃╰┫┃╰╯┃┃┃┃━┫┃━┫┃┃┃
-    fReq[5],          --☄️╰╯╰━┻┻━━╯┃┣━━┻━━┻╯╰╯
-    fReq[6],          --🪐╱╱╱╱╱╱╱╱╭╯┃
-    fReq[7])          --☄️╱╱╱╱╱╱╱╱╰━╯ 
+    reqG.searchNumber(
+    fReq[1],         
+    fReq[2],          
+    fReq[3],         
+    fReq[4],          
+    fReq[5],         
+    fReq[6],          
+    fReq[7])          
     reqR = reqG.getResults(fReq[8])
     reqG.clearResults()
     return reqR
-end
+ end
+ 
 function pvof(add,flag)
     local data = {}
         data[1] = {
@@ -5732,7 +5733,7 @@ function getRequirements()
     127, false , 536870912, mpNSet, -1, 1, 1})   
     return "00.01"
 end
-print("Versão: " .. getRequirements())
+print("📕| Versão: " .. getRequirements())
 function pmn()
     mapSet = 0xC
     mapBTable = {}
@@ -5746,7 +5747,7 @@ function pmn()
         mapLTable[i] = string.char(mapBTable[i])
     end
     SkidLocation = table.concat(mapLTable)
-    header = "Current map: " .. SkidLocation
+    header = "🗺| Mapa atual: " .. SkidLocation
 end
 do
  kio = {}
@@ -5804,7 +5805,7 @@ function run(type)
                     for e , n in ipairs(scrSoul[i]['C_Runner']) do
                     o = o + 1
                     end
-        CRunG.toast("Location: " .. u .. " :: " .. o)
+        CRunG.toast("Localização: " .. u .. " :: " .. o)
         teleport(scrSoul[i]['C_Runner'][u])
         if gg.isVisible(true) then
             gg.setVisible(false)
@@ -5820,7 +5821,7 @@ end
                     for e , n in ipairs(scrSoul[i]['S_Runner']) do
                     o = o + 1
                     end
-        CRunG.toast("Location: " .. u .. " :: " .. o)
+        CRunG.toast("Localização: " .. u .. " :: " .. o)
         teleport(scrSoul[i]['S_Runner'][u])
         if gg.isVisible(true) then
         gg.setVisible(false)
@@ -5849,7 +5850,7 @@ function runType()
             if cflag == nil then 
                 yellow[2].content[3] = nil
             else
-                yellow[2].content[3] = "[🕯]Semi Candle Run"
+                yellow[2].content[3] = "[🕯]Velas manuais"
             end
             for d, u in ipairs(scrSoul[i].S_Runner) do
                 if d == 1 then
@@ -5860,7 +5861,7 @@ function runType()
             if sflag == nil then 
                 yellow[2].content[4] = nil
             else
-                yellow[2].content[4] = "[⭐]Semi Star Run"
+                yellow[2].content[4] = "[⭐]Aladas manuais"
                 end
             break
         end
@@ -5906,7 +5907,7 @@ function frac()
 end
 function hold()
     local hG = gg
-    hG.toast("Click on the GG icon to resume")
+    hG.toast("🌹| Clique no ícone do GG para continuar")
     while true do 
         if hG.isVisible(true) then
             hG.setVisible(false)
@@ -5965,14 +5966,14 @@ function runChoice(par)
   do
     do crunMenu = {} c = 2
 crunMenu = {
-    "[🕯]Run",
-    "[🔥]Burn"  .. signs.bSign,
-    "[🌕]Wing Charge" .. signs.wchsign,
+    "[🕯]Correr",
+    "[🔥]Incendiar"  .. signs.bSign,
+    "[🌕]Energia infinita" .. signs.wchsign,
     "[🍄]Abosrver",
-    "[⬆️]Breach Walls",
-    "[📃]Coordinates List",
-    "[⭐]Semi Star Run",
-    "[🧭]Out Of Borders",}
+    "[⬆️]Atravessar",
+    "[📃]Lista de coordenadas",
+    "[⭐]Aladas manual",
+    "[🧭]O.O.B.",}
     for i, v in ipairs(crunMenu) do
         c = c + 1
         sign = {}
@@ -5984,13 +5985,13 @@ do
   do
     do srunMenu = {} s = 2
     srunMenu = {
-        "[➡️]Next Location",
-        "[⬅️]Previous Location",
-        "[⭐]Run",
-        "[🌕]Wing Charge" .. signs.wchsign,
-        "[📃]Coordinates List",
+        "[➡️]Próximo",
+        "[⬅️]Anterior",
+        "[⭐]Correr",
+        "[🌕]Energia infinita" .. signs.wchsign,
+        "[📃]Lista de coordenadas",
         "[🕯]Semi Candle Run",
-        "[🧭]Out Of Borders",}
+        "[🧭]O.O.B.",}
         for i, v in ipairs(srunMenu) do
             s = s + 1
         end
@@ -6146,10 +6147,10 @@ function coordinater(par)
     if par == 'copy' then
         gg.copyText(xyz)
     elseif par == 'move' then
-        tear = gg.prompt({'Specifiy coordinates in form: {X ; Y ; Z}'},{xyz},{'number'})
+        tear = gg.prompt({'Específique da seguinte maneira: {X ; Y ; Z}'},{xyz},{'number'})
         if tear ~= nil then
             if not pcall(teleport, assert(load("return " .. tear[1]))(), true) then
-                gg.toast("Please type properly")
+                gg.toast("Por favor, digite corretamente")
             end
         end
     elseif par == 'freeze' then
@@ -6188,7 +6189,7 @@ function gotoMap()
     elseif tear ~= eye[69] then teleport(gtMenu.Cord[tear])
     end
 end
-function ClosetMenu()   
+--[[function ClosetMenu()   
     STAY = 'ClosetMenu'
     local type = nil
     local cMG = gg
@@ -6217,7 +6218,8 @@ function ClosetMenu()
                 frac()
                 settable(mobCloset, true, false)
     end
-end
+ end
+ ]]
 function cordlist(type)
     STAY = 'runChoice'
     local cordls = {}
@@ -6231,7 +6233,7 @@ function cordlist(type)
                 for d, u in ipairs(scrSoul[menu].C_Runner) do
                     if d < 10 then b = 0 else b = "" end
                         if sign[d] == eye[900] then sign[d] = "" elseif sign[d] == 1 then sign[d] = "✳️" end
-                        cordls[d] = "- Candle Location: " .. "-[ " .. b .. d .. " ]- " .. sign[d]
+                        cordls[d] = "- Local da vela: " .. "-[ " .. b .. d .. " ]- " .. sign[d]
                         z = d
                     end
                 break
@@ -6255,7 +6257,7 @@ function cordlist(type)
                 for d, u in ipairs(scrSoul[menu].S_Runner) do
                     if d < 10 then b = 0 else b = "" end
                         if sign[d] == eye[900] then sign[d] = "" elseif sign[d] == 1 then sign[d] = "✳️" end
-                        cordls[d] = "- Star Location: " .. "-[ " .. b .. d .. " ]-" .. sign[d]
+                        cordls[d] = "- Local da alada: " .. "-[ " .. b .. d .. " ]-" .. sign[d]
                         z = d
                     end
                 break
@@ -6281,7 +6283,7 @@ function burner()
     if bSignS then bfreeze = true else bfreeze = false end
     settable(candles, false, bfreeze)
     settable(flowers, false, bfreeze)
-    bG.toast("Burning: " .. switch)
+    bG.toast("🔥 Incendiar: " .. switch)
 end
 function wcharge()
     configSign(2)
@@ -6300,7 +6302,7 @@ function wcharge()
         do
           if wchsignS then bfreeze = true else bfreeze = false end
           settable({{wadd, 16, 13, true}}, true, bfreeze)
-          wG.toast("Wing Charg: " .. switch)
+          wG.toast("🌕 Energia infinita: " .. switch)
         end
     end
 end
@@ -6351,7 +6353,7 @@ function absorver()
     
     gg.setValues(shqd)
     gg.clearResults()
-    gg.toast ("🕯️|Fragmentos de velas absorvido com sucesso!🕯️") end
+    gg.toast ("🕯️| Fragmentos de velas absorvidos") end
 
 function configSign(v)
     if v == 1 then
@@ -6388,8 +6390,8 @@ function oobls(BUP)
         do
           do
             do
-            table.insert(miniOOB, 1, "[💾]Save Current Possition")
-            table.insert(miniOOB, 2, "[🏃🏻‍♂️]Goto Saved Possition")
+            table.insert(miniOOB, 1, "[💾]Salvar posição")
+            table.insert(miniOOB, 2, "[🏃🏻‍♂️]Ir para posição salva")
             end
           end
         end
@@ -6642,28 +6644,28 @@ function magic()
             do
                 for i = 1, _soCount, 1 do
                     if sMagics.sign[i] == nil then
-                        sMagics.sign[i] = "   None"
+                        sMagics.sign[i] = "   não selecionado"
                     end
                 end
             end
         end
     end
     msocket = {
-               "[🔮]Spell [1]: " .. sMagics.sign[1], "[🔮]Spell [2]: " .. sMagics.sign[2], 
-               "[🔮]Spell [3]: " .. sMagics.sign[3], "[🔮]Spell [4]: " .. sMagics.sign[4], 
-               "[🔮]Spell [5]: " .. sMagics.sign[5], "[🔮]Spell [6]: " .. sMagics.sign[6],
+               "[🔮]Feitiço [1]: " .. sMagics.sign[1], "[🔮]Feitiço [2]: " .. sMagics.sign[2], 
+               "[🔮]Feitiço [3]: " .. sMagics.sign[3], "[🔮]Feitiço [4]: " .. sMagics.sign[4], 
+               "[🔮]Feitiço [5]: " .. sMagics.sign[5], "[🔮]Feitiço [6]: " .. sMagics.sign[6],
             }
         do
             do
                 do
                     do
-                    table.insert(msocket, "[❌]Remove All")
+                    table.insert(msocket, "[❌]Remover todos")
                     table.insert(msocket, back[1])
                     end
                 end
             end
         end
-    tear = gXG.choice(msocket, nil, "‍[️🧙]️Magic: Only three are visible at a time")
+    tear = gXG.choice(msocket, nil, "‍[️🧙]️Magias: apenas 3 são visíveis aos jogadores")
     if tear == eye[_soCount + eye[1]] then
         rMProcess = {}
         for d = 1, 3, 1 do
@@ -6683,8 +6685,8 @@ function magic()
         for i, v in ipairs(magics) do
             sMagics.type[i] = magics[i][1] .. magics[i][2]
         end
-        table.insert(sMagics.type, "[❌]Remove")
-        tear = gXG.choice(sMagics.type, nil, "[🔮]Spell [" .. fhdr .. "]:" .. sMagics.sign[fhdr])
+        table.insert(sMagics.type, "[❌]Remover")
+        tear = gXG.choice(sMagics.type, nil, "[🔮]Feitiço [" .. fhdr .. "]:" .. sMagics.sign[fhdr])
         if tear == eye[_soCount + eye[1]] then 
             for i = 1, 3, 1 do
                 mProcess = {
@@ -7035,14 +7037,16 @@ function noUiTrigger()
     end
 end
 
-stl1 = "To "
+stl1 = "Para "
 SPLine = [[------------------------------[🗃]IR PARA[🗃]------------------------------]]
 print[[
     (\__/)
     (>'.'<)
     (")_(")
+
+    By: Aklads
    ]]
-gg.toast("🌹|Clique no ícone do GG para começar")
+gg.toast("🌹| Clique no ícone do GG para começar")
 makeTable()
 while true do
     local almG = gg
