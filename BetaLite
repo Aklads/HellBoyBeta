@@ -5023,592 +5023,676 @@ scrSoul = {
   end
 yellow = {
     {
-        "[🌀]Teleport",
+        "[🌀]Teletransporte",
         content = {
-            "[🌀]Portal Teleport",
-            "[🗃]Goto",
-            "[🧭]Out Of Borders",
-            "[⬆️]Breach Walls",
-            "[📝]Manual Coordinates",
-            "[🗄]Copy coordinate",
-            "[📌]Pin Position",
+            "[🌀]Teletransporte",
+            "[🗃]Ir para",
+            "[🧭]O.O.B.",
+            "[⬆️]Atravessar",
+            "[📝]Coordenadas manuais",
+            "[🗄]Copiar coordenadas",
+            "[📌]Fixar posições",
             
         }, 
     },
     {
-        "[🏃🏻‍♂️] Run",
+        "[🏃🏻‍♂️] Correr",
         content = {
-            "[🕯]Auto Candle Run",
-            "[⭐]Auto Star Run",
-            "[🕯]Semi Candle Run",
-            "[⭐]Semi Star Run",
+            "[🕯]Velas automaticas",
+            "[⭐]Aladas automaticas",
+            "[🕯]Velas manual",
+            "[⭐]Aladas manual",
         },
     },
     {
-        "‍[️🧙]️Magic",
+        "‍[️🧙]️Magias",
         content = {
-            "[🔮]No Sparkles spells",
-            "[✨]Sparkle spells",
-            "[🔄]Remove Spells",
+            "[🔮]Sem brilhos",
+            "[✨]Com brilhos",
+            "[❌]Remover todos",
         },
         
     },
     {
-        "[🔫]Trolls",
-        content = {
-            "[🧨]Force Light",
-        },                       
-                      
+        "[🔥]Incendiar",
     },
     {
-        "[🎒]Props",
-        content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🎀]Head accessories",
-            "[🦚]Capes",
-            "[🎒]Props",
-            "[🎗]Necklaces",
-        },                       
-                      
+        "[🌕]Energia infinita",
     },
     {
-        "[🧺]Show Closet",
-        content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🦚]Capes",
-            "[🎒]Props",
-        },                       
-                      
-    },
-    {
-        "[📥]Commands",
-
-    },
-    {
-        "[⚙]Settings",
-
+        "[🍄]Absorver luz",
     },
 }
 magics = {
     {
-        "[👖]","Pants Spells",
+        "[👖]","Feitiços de Calças",
         content = {
             {
-                "LP Sword Pants", 
+                "Pequeno Principe", 
                 -495233219
             },
             {
-                "Halloween Pants", 
+                "Vestido de Bruxa", 
                 969946279
+            },
+            {
+                "Arco-iris",
+                1482655023
             },
         },
     },
     {
-        "[🎭]","Masks Spells",
+        "[🎭]","Feitiços de Máscaras",
         content = {
             {
-                "White Weasel Mask", 
+                "Gatinho", 
                 784922793
             },
             {
-                "Red Rabbit Mask", 
+                "Raposa", 
                 964659005
             },
             {
-                "Rhythm Kiss Mask", 
+                "Ator de Ritmo", 
                 -218615327
             },
             {
-                "Ox Head Mask", 
+                "Ox Head", 
                 -849020465
             },
             {
-                "Valentien Mask", 
+                "Rosa", 
                 -938578505
             },
             {
-                "Red Cheeks[v] Mask", 
+                "Blush Vermelho", 
                 -1636163586
             },
             {
-                "Phoenix Mask", 
+                "Truque de Spin", 
                 771982951
             },
             {
-                "Peacock Mask", 
+                "Fênix", 
                 144876107
             },
             {
-                "Tiger Mask", 
+                "Tigre", 
                 475055967
             },
             {
-                "Oxygen Mask", 
+                "Oxigênio", 
                 2857434492
-            },
-            {
-                "Echantment Cape", 
-                3911125165
             },
         },
     },
     {
-        "[👱]️","Head Spells",
+        "[👱]️","Feitiços de Cabeça",
         content = {
             {
-                "Rainbow Flower", 
+                "Flor Arco-iris", 
                 2141511649
             },
             {
-                "Rainbow Tassel", 
+                "Flor dupla arco-iris",
+                -1014212311
+            },
+            {
+                "Mecha arco-iris", 
                 -290700605
             },
             {
-                "Pumpkin Hat", 
+                "Cifre de Corais",
+                -347711956
+            },
+            {
+                "Chapéu de Abóbora", 
                 1046521292
             },
             {
-                "Witch Hat", 
+                "Chapéu de Bruxo", 
                 1983755432
             },
             {
-                "Lion Hood", 
+                "Gorro de Leão", 
                 2093744529
             },
             {
-                "Two Puffs Hair", 
+                "Coque Duplo", 
                 -2099997114
             },
             {
-                "Christmas Hood", 
+                "Gorro de Lã", 
                 -823266018
             },
             {
-                "Bloom Hair", 
+                "Cabelo do Florescer", 
                 373243257
             },
             {
-                "Dream Season Hair", 
+                "Cabelo Truque de Spin", 
                 1059767859
             },
             {
-                "Antler", 
+                "Cifre de Rena", 
                 1909998088
             },
             {
-                "Christmas hat", 
+                "Gorro de Natal", 
                 -1409683913
             },
             {
-                "banquet bow tie", 
+                "Gravata de Folha", 
                 8361886
             },
             {
-                "Orange headgear", 
+                "Laranja", 
                 -1616733323
             },
             {
-                "Hair Pin", 
+                "Pingente de Cabelo", 
                 4123817368
             },
             {
-                "Summer Hat", 
+                "Chapéu de Verão", 
                 2052387583
             },
             {
-                "Small rabit", 
+                "Coelho", 
                 -848739711
             },
             {
-                "Halloween Hair 1", 
+                "Cachos de Halloween", 
                 116679863
             },
             {
-                "Halloween Hair 2", 
-                2534225385
+                "Moicano de Aranha", 
+                -1760741911
             },
             {
-                "Halloween Pumpkin", 
+                "Abóbora de Halloween", 
                 125584301
             },
             {
-                "Halloween Horn", 
+                "Chifre de Halloween", 
                 1123843208
             },
             {
-                "Witch Hat 2", 
+                "Chapéu de Bruxa 2", 
                 4219181095
             },
             {
-                "Winter Feast Hat", 
-                2202141658
+                "Gorro de Inverno", 
+                -2092825638
             },
             {
-                "Fish Hat", 
-                2751409166
+                "Chapéu de Carpa", 
+                -1543558130
             },
             {
-                "Fish Accessories", 
+                "Carpa de Cabeça", 
                 551055685
             },
             {
-                "Flower Accessories", 
+                "Flor Branca", 
                 942365523
             },
             {
-                "Kizuna Ai Hair", 
+                "Cabelo Kizuna Ai", 
                 2050094531
-            },      
+            },
+            {
+                "Acessório de Floco de Neve",
+                1372838509
+            },
+            {
+                "Acessório de Concha",
+                -171149928
+            },
+            {
+                "Gorro arco-iris",
+                -521490982
+            },
+            {
+                "Brincos de Diamante",
+                -1590289609
+            },
+            {
+                "Fones de Ouvido arco-iris",
+                -1769208928
+            },
+            {
+                "Tartaruga de Ombro",
+                1943995802
+            },
         },
     },
     {
-        "[🦚]","Capes Spells",
+        "[🦚]","Feitiços de Capas",
         content = {
             {
-                "Green Bud Cloak", 
+                "Capa da Terra", 
                 2079599063
             },
             {
-                "TGC Cloak", 
+                "Capa do Escritório TGC", 
                 540856305
             },
             {
-                "Ghost Bat Cloak", 
+                "Capa de Morcego", 
                 625581156
             },
             {
-                "Spider Silk Cloak", 
+                "Capa de Aranha", 
                 930203946
             },
             {
-                "Snowflake Cloak", 
+                "Capa Floco de Neve", 
                 -784831205
             },
             {
-                "Christmas Cloak", 
+                "Capa Vermelha de Natal", 
                 1306675982
             },
             {
-                "White bird cloak", 
-                -1623262339
-            },
-            {
-                "petal cloak", 
-                -6043825
-            },
-            {
-                "Lightseeker bulb", 
-                1375571404
-            },
-            {
-                "Cloak of Spring", 
-                -445538750
-            },
-            {
-                "Sakura Cloak", 
-                162066154
-            },
-            {
-                "Ocean Cloak", 
-                329684861
-            },
-            {
-                "Dream Season Red Velvet Cloak", 
-                -308941587
-            },
-            {
-                "Dream Season Graduation Cloak", 
-                -1822337532
-            },
-            {
-                "Rainbow Cloak", 
-                -195929339
-            },
-            {
-                "Scarf Cape", 
-                2207305370
-            },
-            {
-                "Asteroid Jacket", 
-                1402240423
-            },
-            {
-                "Golden Cape", 
-                330655056
-            },
-            {
-                "Canada Cape", 
-                769892976
-            },
-            {
-                "Winter Feast Cape", 
+                "Capa Branca de Natal", 
                 1762827508
             },
             {
-                "Scarf Fish Cape", 
+                "Capa do Encantos", 
+                -383842131
+            },
+            {
+                "Capa do Diretor", 
+                -1623262339
+            },
+            {
+                "Capa de Petalas", 
+                -6043825
+            },
+            {
+                "Capa dos Caçadores da Luz", 
+                1375571404
+            },
+            {
+                "Capa da Fortuna", 
+                -445538750
+            },
+            {
+                "Capa do Truque de Spin",
+                1031127004
+            },
+            {
+                "Capa da Primavera", 
+                162066154
+            },
+            {
+                "Capa do Oceano", 
+                329684861
+            },
+            {
+                "Capa do Carteiro", 
+                -308941587
+            },
+            {
+                "Capa da Fênix", 
+                -1822337532
+            },
+            {
+                "Capa arco-iris", 
+                -195929339
+            },
+            {
+                "Cachecol do Principe", 
+                -2087661926
+            },
+            {
+                "Jaqueta do Asteroide", 
+                1402240423
+            },
+            {
+                "Capa Branca e Dourada", 
+                330655056
+            },
+            {
+                "Capa de Folha", 
+                769892976
+            },
+            {
+                "Capa de Carpa", 
                 573237039
             },
             {
-                "Bloom Cape 2", 
-                3050577227
-            },
-            {
-                "Turtle Cape", 
+                "Capa da Tartaruga", 
                 -700035318
             },
+            {
+                "Capa de Glicínia",
+                -1244390069
+            }
         },
     },
     {
-        "[🎒]","Props Spells",
+        "[🎒]","Feitiços de Acessórios",
         content = {
             {
-                "Lantern", 
+                "Lanterna", 
                 1319710173
             },
             {
-                "Table", 
+                "Cadeira", 
                 256924066
             },
             {
-                "Harp", 
-                -1001892262
-            },
-            {
-                "Swing", 
+                "Balanço", 
                 1064080243
             },
             {
-                "Seesaw", 
+                "Gangorra", 
                 -2095749161
             },
             {
-                "Tea table", 
+                "Mesa de Chá", 
                 10058409
             },
             {
-                "Transparent Umbrella", 
+                "Guarda-chuva transparente", 
                 1167393926
             },
             {
-                "Fox", 
-                2237536272
+                "Guarda-chuva", 
+                -992017029
             },
             {
-                "Chair Wood", 
-                3136256372
+                "Guarda-sol de Verão", 
+                -1416755338
             },
             {
-                "Chair Cloth", 
+                "Raposa", 
+                -2057431024
+            },
+            {
+                "Cadeira de Madeira", 
+                -1158710924
+            },
+            {
+                "Cadeira de Madeira Dupla", 
                 472595010
             },
             {
-                "Pipe", 
-                2428135093
+                "Cadeira de Praia",
+                -1866832203
             },
             {
-                "Brazier 2", 
+                "Cano Quebrado",
+                -1419483218
+                
+            },
+            {
+                "Coluna de Chamas", 
                 160072902
             },
             {
-                "Summer Umbrella", 
-                2878211958
+                "Recicliner", 
+                2428135093
             },
             {
-                "Recliner", 
-                2875484078
-            },
-            {
-                "Winter piano", 
+                "Piano de Inverno", 
                 -1202427550
             },
             {
-                "Halloween Chair", 
-                3497279169
+                "Mesa de Halloween", 
+                -797688127
             },
             {
-                "Snow Globe", 
+                "Globo de Neve", 
                 1440439821
             },
             {
-                "Umbrella 2", 
-                3302950267
-            },
-            {
-                "Boat", 
+                "Barco", 
                 303877523
             },
             {
-                "Horn Instrument", 
-                3935620986
+                "Chifre", 
+                -359346310
             },
             {
-                "Bloom Chair 2", 
+                "Harpa", 
+                -1001892262
+            },
+            {
+                "Harpa Suprema", 
+                1275481440
+            },
+            {
+                "Bule de Chá", 
                 1598845731
             },
             {
-                "TGC Guitar", 
+                "Guitarra da TGC", 
                 332997197
             },
             {
-                "Grand Guitar", 
+                "Violão Supremo", 
                 970364197
             },
             {
-                "Grand HandPan", 
+                "HandPan Supremo", 
                 454864430
             },
         },
     },
     {
-        "[🔰]","Other Spells",
+        "[🔰]","Outros Feitiços",
         content = {
             {
-                "Small", 
-                1692428656
+                "Chibi",
+                -305102667
             },
             {
-                "Samller", 
-                2142718166
-            },
-            {
-                "Big", 
+                "Gigante", 
                 891098028
             },
             {
-                "Glow", 
+                "Pequeno",
+                1692428656
+            },
+            {
+                "Grande",
+                -1879316162
+            },
+            {
+                "Formiga",
+                2142718166
+            },
+            {
+                "Brilhar", 
                 1097748727
             },
             {
-                "Recharge", 
+                "Energia", 
                 1750685908
             },
             {
-                "Floating", 
+                "Anti Gravidade", 
                 1860519737
             },
             {
-                "Anti Dragon", 
-                1067647386
-            },
-            {
-                "Anti Darkness", 
+                "Anti Escuridão", 
                 383062578
             },
             {
-                "Anti rain", 
+                "Anti Chuva", 
                 -1463943689
             },
             {
-                "A lot of candlelight", 
+                "2x Velas", 
                 -1727483534
             },
             {
-                "Flight Blessing", 
+                "Ganho de Asa", 
                 -1362469224
             },
             {
-                "Friendship Back to Back", 
+                "Repelente de Dragão",
+                -932650381
+            },
+            {
+                "👬 Cavalinho", 
                 1405645877
             },
             {
-                "Friendship Bear Hug", 
+                "👬 Abraço de Urso", 
                 1677246236
             },
             {
-                "Friendship Warp", 
+                "👬 Teletransporte", 
                 998754260
             },
             {
-                "Dark Crab Calling", 
+                "👬 Briguinha",
+                2137753158
+            },
+            {
+                "🗣 Grito de Caranguejo", 
                 1725047129
             },
             {
-                "Jellyfish Calling", 
+                "🗣 Grito de Água-Viva", 
                 -957441587
             },
             {
-                "Manta Calling", 
+                "🗣 Grito de Manta", 
                 1814753890
             },
             {
-                "turquoise tail", 
-                1318288330
-            },
-            {
-                "black tail", 
-                -176902809
-            },
-            {
-                "blue tail", 
-                -1951801352
-            },
-            {
-                "Cyan tail", 
-                1918290563
-            },
-            {
-                "Green tail", 
-                637646527
-            },
-            {
-                "Purple pink tail", 
-                -1527316661
-            },
-            {
-                "orange tail", 
-                1237283438
-            },
-            {
-                "purple tail", 
-                470393304
-            },
-            {
-                "purple tail", 
-                -1071076330
-            },
-            {
-                "Red tail", 
-                -1304862813
-            },
-            {
-                "Yellow tail", 
-                -1354381164
-            },
-            {
-                "Rainbow trail", 
-                147016038
-            },
-            {
-                "Crab Troll", 
-                901504997
-            },
-            {
-                "Anti Krill", 
-                3362316915
-            },
-            {
-                "Kizuna AI Call", 
+                "🗣 Grito da Kizuna", 
                 -1881863468
             },
             {
-                "Firework Stuff", 
+                "✨ Rastro Aquamarinho", 
+                1318288330
+            },
+            {
+                "✨ Rastro Preto", 
+                -176902809
+            },
+            {
+                "✨ Rastro Azul", 
+                -1951801352
+            },
+            {
+                "✨ Rastro Ciano", 
+                1918290563
+            },
+            {
+                "✨ Rastro Verde", 
+                637646527
+            },
+            {
+                "✨ Rastro Magenta", 
+                -1527316661
+            },
+            {
+                "✨ Rastro Laranja", 
+                1237283438
+            },
+            {
+                "✨ Rastro Rosa", 
+                470393304
+            },
+            {
+                "✨ Rastro Roxo", 
+                -1071076330
+            },
+            {
+                "✨ Rastro Vermelho", 
+                -1304862813
+            },
+            {
+                "✨ Rastro Amarelo", 
+                -1354381164
+            },
+            {
+                "🌈 Rastro Colorido", 
+                147016038
+            },
+            {
+                "Chapéu de Crab", 
+                901504997
+            },
+            {
+                "Cajado de Fogos", 
                 227018419
             },
             {
-                "Ocean Necklace", 
+                "Colar do Oceano", 
                 -1938239955
             },
             {
-                "Winter Feast Scarf", 
+                "Cachecol de Natal", 
                 70832281
+            },
+            {
+                "Teleport Isle Elder [Sparks Needed]",
+                103122035
+            },
+            {
+                "Teleport Sanctuary [Sparks Needed]",
+                598305233
+            },
+            {
+                "Teleport Prairie Elder [Sparks Needed]",
+                -1633629698
+            },
+            {
+                "Teleport Caverna da Floresta [Sparks Needed]",
+                224110574
+            },
+            {
+                "Teleport Forest Elder [Sparks Needed]",
+                -1256468339
+            },
+            {
+                "Teleport Arca Esquecida [Sparks Needed]",
+                -210323960
+            },
+            {
+                "Teleport Hermit Valley [Sparks Needed]",
+                1660914074
+            },
+            {
+                "Teleport Valley Elder [Sparks Needed]",
+                248080515
+            },
+            {
+                "Teleport Wasteland Elder [Sparks Needed]",
+                -1172691679
+            },
+            {
+                "Teleport You & I [?]",
+                1153544860
+            },
+            {
+                "Timeline Birthday Crab [Sparks Needed]",
+                875460884
+            },
+            {
+                "Timeline Day & Night [Sparks Needed]",
+                539651423
+            },
+            {
+                "Timeline Nature Turtle [Sparks Needed]",
+                1212897503
+            },
+            {
+                "Timeline Oreo [Sparks Needed]",
+                959071590
             },
       },
     },
 }
+
 
 ----
 function reqQ(fReq)
@@ -5746,12 +5830,10 @@ end
       end
    end
 end
-back = {"[🔙]Back", "[👋]End" }
+back = {"[🔙]Voltar", "[👋]Sair" }
 table.insert(yellowCry, back[2])
 table.insert(yellow[1].content, back[1])
 table.insert(yellow[2].content, back[1])
-table.insert(yellow[4].content, back[1])
-table.insert(yellow[6].content, back[1])
 function runType()
     pmn()
     sflag, cflag = nil
@@ -6030,12 +6112,10 @@ function yellowTears()
     if     tear == eye[1] then tpmenu()
     elseif tear == eye[2] then runType()
     elseif tear == eye[3] then magic()
-    elseif tear == eye[4] then trolls()
-    elseif tear == eye[5] then 
-    elseif tear == eye[6] then ClosetMenu()
-    elseif tear == eye[7] then if noui ~= true then noui = true gg.toast('Commands: [ON]') else noui = false gg.toast('Commands: [OFF]') end
-    elseif tear == eye[8] then ssRes()
-    elseif tear == eye[9] then os.exit()
+    elseif tear == eye[4] then burner()
+    elseif tear == eye[5] then wcharge()
+    elseif tear == eye[6] then absorver()
+    elseif tear == eye[7] then os.exit()
     end
 end
 function tpmenu()
@@ -6225,6 +6305,51 @@ signs = {
     bSign = "",
     wchsign = "",
 }
+
+function absorver()
+    gg.clearResults();
+    gg.setRanges(4)
+    gg.searchNumber("-842203136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    local num = gg.getResultCount()
+    local xh = gg.getResults(num)
+    
+    for k, v in pairs(xh) do
+      v.isMatch = true end
+    
+    local shtmp = {}
+    for i, v in ipairs(xh) do
+      shtmp[#shtmp+1] = {}
+      shtmp[#shtmp].address = v.address - 12
+      shtmp[#shtmp].flags = gg.TYPE_FLOAT
+    end
+    
+    shtmp = gg.getValues(shtmp)
+    for i, v in ipairs(shtmp) do
+      if "" .. v.value ~= "3.5" then
+        xh[i].isMatch = false
+      end 
+    end
+    
+    local shdata = {}
+    for i, v in ipairs(xh) do
+      if (v.isMatch) then
+          shdata[#shdata+1] = v.address - 12
+      end
+    end
+    
+    shsl = #shdata
+    local shqd = {}
+    for i = 1, shsl do
+      shqd[#shqd+1] = {}
+      shqd[#shqd].address = shdata[i]
+      shqd[#shqd].flags = gg.TYPE_FLOAT
+      shqd[#shqd].value = 9999
+    end
+    
+    gg.setValues(shqd)
+    gg.clearResults()
+    gg.toast ("🕯️|Fragmentos de velas absorvido com sucesso!🕯️") end
+
 function configSign(v)
     if v == 1 then
         if signs.bSign == "" then
@@ -6320,7 +6445,8 @@ function oobls(BUP)
     end
 end
 _soCount = 6
-function ssRes()
+--[[ função de captura de tela aprimorada
+    function ssRes() 
     ssRes_s = {}
     local sRG = gg
     setRes = {}
@@ -6444,6 +6570,7 @@ end
     do
       do
         do
+--]]
         function srun_add()
             if star.trace ~= nil then 
                 if star.trace >= star.limit then star.trace = star.limit else star.trace = star.trace + eye[1] end
@@ -6591,7 +6718,7 @@ function tableSize(array)
     end
     return ilias
 end
-function trolls()
+--[[function trolls()
     STAY = 'trolls'
     tear = gg.choice(yellow[4].content, nil, "Be careful")
     if tear == 1 then
@@ -6608,6 +6735,7 @@ function trolls()
         yellowTears()
     end
  end
+]]
 function setstr(add, range, str)
     nn = gg.bytes(str)
     hv = {}
