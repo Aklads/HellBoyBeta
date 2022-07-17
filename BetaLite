@@ -5730,7 +5730,7 @@ function getRequirements()
     mpNSet = qburner[1].address - 0x1768B6C
     M_Bytes = reqQ({'2.81750893e20F;97B;116B;97B;1.16267692e33F;76B;101B;118B;2.21392307e-10F;108B;115B;47B::21', 
     127, false , 536870912, mpNSet, -1, 1, 1})   
-    return "SUCCEED"
+    return "By: Aklads#1082"
 end
 print("Requirements: " .. getRequirements())
 function pmn()
