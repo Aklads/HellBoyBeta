@@ -5730,9 +5730,9 @@ function getRequirements()
     mpNSet = qburner[1].address - 0x1768B6C
     M_Bytes = reqQ({'2.81750893e20F;97B;116B;97B;1.16267692e33F;76B;101B;118B;2.21392307e-10F;108B;115B;47B::21', 
     127, false , 536870912, mpNSet, -1, 1, 1})   
-    return "By: Aklads#1082"
+    return "00.01"
 end
-print("Requirements: " .. getRequirements())
+print("Versão: " .. getRequirements())
 function pmn()
     mapSet = 0xC
     mapBTable = {}
@@ -7038,9 +7038,9 @@ end
 stl1 = "To "
 SPLine = [[------------------------------[🗃]IR PARA[🗃]------------------------------]]
 print[[
-   ┌───── •✧✧• ─────┐
-     by: Aklads#1082 
-   └───── •✧✧• ─────┘
+    (\__/)
+    (>'.'<)
+    (")_(")
    ]]
 gg.toast("🌹|Clique no ícone do GG para começar")
 makeTable()
