@@ -6570,7 +6570,7 @@ end
     do
       do
         do
---]]
+
         function srun_add()
             if star.trace ~= nil then 
                 if star.trace >= star.limit then star.trace = star.limit else star.trace = star.trace + eye[1] end
@@ -6592,7 +6592,8 @@ end
          end
       end
    end
-end
+ end
+]]
 function bwall(dis)
     local xcord = pvof(CordSrch[1].address + xset, gg.TYPE_FLOAT)
     local ycord = pvof(CordSrch[1].address + yset, gg.TYPE_FLOAT)
