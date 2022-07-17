@@ -6710,73 +6710,74 @@ scrSoul = {
   end
 yellow = {
     {
-        "[🌀]Teleport",
+        "[🌀]Teletransportee",
         content = {
-            "[🌀]Portal Teleport",
-            "[🗃]Goto",
-            "[🧭]Out Of Borders",
-            "[⬆️]Breach Walls",
-            "[📝]Manual Coordinates",
-            "[🗄]Copy coordinate",
-            "[📌]Pin Position",
+            "[🌀]Teletransporte mágico",
+            "[🗃]Mudar área",
+            "[🧭]O.O.B.",
+            "[⬆️]Atravessar",
+            "[📝]Coordenadas manuais",
+            "[🗄]Copiar coordenada",
+            "[📌]Fixar posição",
             
         }, 
     },
     {
-        "[🏃🏻‍♂️] Run",
+        "[🏃🏻‍♂️] Farm",
         content = {
-            "[🕯]Auto Candle Run",
-            "[⭐]Auto Star Run",
-            "[🕯]Semi Candle Run",
-            "[⭐]Semi Star Run",
+            "[🕯]Auto-farm de velas",
+            "[⭐]Auto-farm de aladas",
+            "[🕯]Farm-manual de velas",
+            "[⭐]Farm-manual de aladas",
+            "[🔖]Desbloquear missões sazonais",
         },
     },
     {
-        "‍[️🧙]️Magic",
+        "[🔥]Incendiar",
+    },
+    {
+        "[🀄️]Absorver tudo",
+    },
+    {
+        "[🌕]Energia infinita",
+    },
+    {
+        "‍[️🧙]️Magias",
         content = {
-            "[🔮]No Sparkles spells",
-            "[✨]Sparkle spells",
-            "[🔄]Remove Spells",
+            "[🔮]Sem brilhos",
+            "[✨]Com brilhos",
+            "[❌]Remover tudo",
         },
         
     },
     {
-        "[🔫]Trolls",
+        "[🎒]Acessórios",
         content = {
-            "[🧨]Force Light",
-        },                       
-                      
+            "[👖]Calças",
+            "[🎭]Mascaras",
+            "[👱]️Cabelos",
+            "[🎀]Acessórios de cabeça",
+            "[🦚]Capas",
+            "[🎒]Acessórios",
+            "[🎗]Colares",
+        },                                        
     },
     {
-        "[🎒]Props",
+        "[🧺]Guarda-roupa",
         content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🎀]Head accessories",
-            "[🦚]Capes",
-            "[🎒]Props",
-            "[🎗]Necklaces",
-        },                       
-                      
+            "[👖]Calças",
+            "[🎭]Mascaras",
+            "[👱]️Cabelos",
+            "[🦚]Capas",
+            "[🎒]Acessórios",
+        },                                     
     },
     {
-        "[🧺]Show Closet",
-        content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🦚]Capes",
-            "[🎒]Props",
-        },                       
-                      
-    },
-    {
-        "[📥]Commands",
+        "[📥]Comandos",
 
     },
     {
-        "[⚙]Settings",
+        "[⚙]Configurações",
 
     },
 }
