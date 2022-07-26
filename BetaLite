@@ -8797,6 +8797,7 @@ print[[
     (")_(")
 
     By: Aklads
+    Base Script: Kiojeen - Hellboy
    ]]
 gg.toast("🌹| Clique no ícone do GG para começar")
 makeTable()
